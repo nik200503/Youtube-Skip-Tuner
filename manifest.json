@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Skip Tuner",
+  "version": "1.0",
+  "description": "Lets you set a custom skip duration for YouTube.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
