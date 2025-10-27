@@ -2,7 +2,7 @@ It is a chrome extension which lets you change the youtube skip time manually.
 
 To use it just follow the given steps:
 
-step 1: just save all the files in your system and then in a folder 
+step 1: just save all the files in your system in a folder, keep the names of files same as in repo.
 
 step 2: visit to "chrome://extensions".
 
